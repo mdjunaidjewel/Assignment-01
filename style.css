@@ -8,7 +8,7 @@
 
 /* This is Common CSS Styles */
 .container{
-    width: 50rem;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 8rem;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 .nav-logo a{
@@ -56,4 +56,61 @@ header{
     font-family:"Raleway", sans-serif;
     font-weight: 600;
 }
+.hero-area{
+    width: 80%;
+    margin: 0 auto;
+    margin: 7.7rem auto;
+}
+.hero-content h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 3.9rem;
+}
+.hero-btn{
+    text-align: center;
+    margin-top: 3rem;
+}
+.hero-btn button{
+     background-color: blue;
+    display: inline-block;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
 /* Here is Header Styles End */
+
+/* this is Action Section Styles start */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.action-left{
+    width: 30%;
+}
+.action-left h2{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 12px;
+}
+.action-left p{
+    color: #a8a9b3;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 1.5rem;
+}
+.action-left .action-btn a{
+    background-color: blue;
+    padding: 12px 23px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+.action-right img{
+    width: 100%;
+    border-radius: 2.3rem;
+}
+/* this is Action Section Styles end */
