@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* This is Common CSS Styles */
+.container{
+    width: 50rem;
+    margin: 0 auto;
+}
+
+/* Here is Header Styles Start */
+header{
+    background-image: url("images/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 85%;
+    margin: 0 auto;
+}
+.nav-logo a{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    transition: all 0.5s ease;
+}
+.nav-logo a:hover{
+    color: black;
+}
+.nav-link li{
+    background-color: blue;
+    padding: 13px 14px;
+    width: 7.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.nav-link li:hover{
+    background-color: black;
+}
+.nav-link li a{
+    color: white;
+    font-family:"Raleway", sans-serif;
+    font-weight: 600;
+}
+/* Here is Header Styles End */
