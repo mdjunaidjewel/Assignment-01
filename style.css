@@ -263,3 +263,60 @@ header{
     margin: 1rem 0 2rem 0;
     cursor: pointer;
 }
+.touch-section{
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.touch-left{
+    width: 50%;
+}
+.touch-left .touch-content h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 4.8rem;
+}
+.touch-right{
+    width: 490px;
+}
+.touch-input{
+    margin: 6px 0;
+}
+.touch-input label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.touch-input input{
+    font-family: "Inter", sans-serif;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 2px 0px;
+    width: 100%;
+}
+.touch-input textarea{
+    padding: 1.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 2px 0px;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    color: #a8a9b3;
+    border-radius: 7px;
+}
+.t-btn button{
+    border: none;
+    background-color: blue;
+    color: #abceff;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.t-btn button:hover{
+    background-color: black;
+}
