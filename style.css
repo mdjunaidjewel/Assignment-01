@@ -380,4 +380,158 @@ footer{
 .footer-links ul li a:hover{
     color: #757575;
 }
+/* This is a Responsive code */
+
+/* Responsive for Small Devices */
+@media screen and (max-width: 576px) {
+    .nav-area{
+        height: 5rem;
+    }
+    .nav-logo a{
+        font-size: 1.5rem;
+    }
+    .nav-link li{
+        padding: 8px 10px;
+        width: 7rem;
+    }
+    .hero-area {
+        width: 100%;
+        margin: 5rem auto;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+    }
+    .hero-btn{
+        margin-top: 1.5rem;
+    }
+    .action-section{
+        flex-direction: column;
+        height: auto;
+        margin: 0.7rem 0;
+    }
+    .action-left{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .action-right{
+        margin: 1rem auto;
+    }
+    .action-btn{
+        margin: 0 auto;
+    }
+    .user-title h1{
+        font-size: 1.5rem;
+    }
+    .user-data{
+        flex-direction: column;
+    }
+    .user-data .u-data h2{
+        font-size: 2rem;
+    }
+    .feedback-section{
+        height: auto;
+    }
+    .feedback-section h1{
+        font-size: 1.7rem;
+        margin: 1.5rem 0;
+    }
+    .feedback-cards{
+        grid-template-columns: auto;
+    }
+    .free-section{
+        margin-top: 1rem;
+    }
+    .free{
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+    .free-content h1{
+        font-size: 1.5rem;
+    }
+    .touch-section{
+        flex-direction: column;
+        height: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .touch-left{
+        width: 100%;
+    }
+    .touch-left .touch-content h1{
+        font-size: 1.7rem;
+    }
+    .touch-right{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .t-btn{
+        margin: 0.6rem auto;
+    }
+    .t-btn button{
+        padding: 1rem;
+
+    }
+    footer{
+        width: 100%;
+        margin: 10px auto 0;
+    }
+    .web-name h1{
+        font-size: 2.4rem;
+    }
+    .footer-content, .footer-content p{
+        width: 100%;
+        padding: 5px;
+    }
+    .footer-links ul{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .footer-links ul li a{
+        font-size: 12px;
+    }
+
+}
+
+/* Responsive for Medium Devices */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-area{
+        height: 6rem;
+    }
+    .hero-area{
+        margin: 5.5rem auto;
+    }
+    .action-section{
+        height: auto;
+    }
+    .action-left{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .users-section{
+        margin-top: 1rem;
+    }
+    .touch-left .touch-content h1{
+        font-size: 3rem;
+        padding: 0 1rem;
+    }
+    .touch-right{
+        width: 50%;
+        padding: 0 1rem;
+    }
+    textarea{
+        width: 100%;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    .footer-title p{
+        font-size: 1rem;
+    }
+    .footer-links ul li a{
+        font-size: 1.1rem;
+    }
+}
+
 
